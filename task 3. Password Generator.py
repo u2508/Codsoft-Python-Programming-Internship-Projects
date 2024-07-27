@@ -1,11 +1,11 @@
 import sys
 import random
 import string
-from PySide6.QtGui import QFont, QIcon, QFontDatabase, QPixmap
+from PySide6.QtGui import QFont, QFontDatabase
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (
     QMainWindow, QApplication, QVBoxLayout, QWidget,QSpacerItem,
-    QLabel, QPushButton, QLineEdit, QFrame, QSizePolicy, QHBoxLayout, QProgressBar
+    QLabel, QPushButton, QLineEdit, QFrame, QSizePolicy, QProgressBar
 )
 
 class ThemedContainer(QFrame):
